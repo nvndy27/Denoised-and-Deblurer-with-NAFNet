@@ -1,0 +1,49 @@
+# Python Caches
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+
+# Model Weights (Excluding from Git due to GitHub size limits)
+**/weights/*.pth
+**/weights/*.onnx
+**/weights/*.bin
+**/weights/*.pb
+
+# Uploads, Outputs & Logs
+**/uploads/*
+!**/uploads/.gitkeep
+**/outputs/*
+!**/outputs/.gitkeep
+**/logs/*
+!**/logs/.gitkeep
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# OS / IDE configurations
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+
+# Executables & large tools
+**/ngrok.exe
+
+# Flutter/Dart specific (for nafnet_appweb)
+**/nafnet_appweb/.dart_tool/
+**/nafnet_appweb/.flutter-plugins-dependencies
+**/nafnet_appweb/.pub-cache/
+**/nafnet_appweb/.pub/
+**/nafnet_appweb/build/
+**/nafnet_appweb/coverage/
+**/nafnet_appweb/android/app/debug/
+**/nafnet_appweb/android/app/profile/
+**/nafnet_appweb/android/app/release/
+**/nafnet_appweb/app.*.symbols
+**/nafnet_appweb/app.*.map.json

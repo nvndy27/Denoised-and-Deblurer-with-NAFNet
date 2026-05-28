@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+uploads/
+outputs/
+logs/
+ngrok.exe
+*.png
+*.jpg
+*.jpeg
+*.gif
